@@ -34,10 +34,15 @@ img {
 
 /* Button position */
 
-
-.thumbnails .up{
+.thumbnails .up {
   position: absolute;
   top: 0;
-  right
+  left: 50%;
+  transform: translate(-50%);
 }
-
+.thumbnails .down {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
