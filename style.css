@@ -1,0 +1,47 @@
+/* Regole di resset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.square_wrapper {
+  background-color: blue;
+  width: 80%;
+}
+.square_wrapper .items {
+  width: 100%;
+  height: 100%;
+}
+.square_wrapper .items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.thumbnails {
+  position: relative;
+  width: 20%;
+}
+.items {
+  width: 100%;
+}
+.items img {
+  width: 100%;
+}
+
+/* Button position */
+
+
+.thumbnails .up{
+  position: absolute;
+  top: 0;
+  right
+}
+
+.thumbnails .down{
+  color: red;
+  position
+}
