@@ -22,6 +22,7 @@ console.log(title, items, text);
 // Richiamo nelle variabile gli slide-wrapper
 const mainSlide = document.querySelector('.main-slide');
 const slideList = document.querySelector('.slide-list');
+console.log(mainSlide, slideList);
 
 // Indice slide selezionata attualmente
 let currentIndex = 0;
@@ -53,6 +54,7 @@ const slidesSmall = document.querySelectorAll('.slide-list .slide');
 // Richiamo nelle variabili i controlli
 const arrowUp = document.querySelector('.arrow-up');
 const arrowDown = document.querySelector('.arrow-down');
+console.log(arrowUp, arrowDown);
 
 // Arrow Up
 arrowUp.addEventListener('click', function () {
